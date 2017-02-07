@@ -138,8 +138,8 @@ public class ConnectDB {
 
         //Método para actualizar columna de Resumen en la tabla de 'Records'
 
-        String query1 = "UPDATE `records` SET `pelicula_resumen` = `pelicula_datos1` WHERE `pelicula_datos1` LIKE '%MOVIE SYNOPSIS%'";
-        String query2 = "UPDATE `records` SET `pelicula_resumen` = `pelicula_datos2` WHERE `pelicula_datos2` LIKE '%MOVIE SYNOPSIS%'";
+        String query1 = "UPDATE `records` SET `pelicula_resumen` = `pelicula_datos1` WHERE `pelicula_datos1` LIKE '%SINOPSIS%'";
+        String query2 = "UPDATE `records` SET `pelicula_resumen` = `pelicula_datos2` WHERE `pelicula_datos2` LIKE '%SINOPSIS%'";
 
         //*************** PRIMERO (pelicula_datos1)
         try {
